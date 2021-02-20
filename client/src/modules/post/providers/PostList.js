@@ -25,3 +25,4 @@ const withPosts = Component => props => {
 };
 
 export default withPosts;
+

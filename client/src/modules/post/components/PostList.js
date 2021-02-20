@@ -24,7 +24,7 @@ export default class PostList extends Component {
       return (
         <div>
           <h3>No posts available</h3>
-          <p>Use the form on the right to create a new post.</p>
+          <p className="lead">Use the form on the right to create a new post.</p>
         </div>
       );
     }
@@ -38,3 +38,4 @@ export default class PostList extends Component {
     );
   }
 }
+

@@ -30,4 +30,3 @@ const withAddPost = Component => props => {
 };
 
 export default withAddPost;
-

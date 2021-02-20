@@ -26,11 +26,11 @@ export default class PostForm extends Component {
         <Form onSubmit={(event) => this.submitForm(event)}>
           <FormGroup>
             <Label for="postTitle">Post Title</Label>
-            <Input type="text" name="title" id="postTitle" placeholder="Title" />
+            <Input type="text" name="title" id="postTitle" placeholder="Add a title" />
           </FormGroup>
           <FormGroup>
             <Label for="postContent">Post Content</Label>
-            <Input type="textarea" name="content" id="postContent" placeholder="Content" />
+            <Input type="textarea" name="content" id="postContent" placeholder="Describe your post" />
           </FormGroup>
           <Button className="submit-button">Submit new post</Button>
         </Form>
@@ -38,3 +38,4 @@ export default class PostForm extends Component {
     )
   }
 }
+
